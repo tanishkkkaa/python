@@ -48,8 +48,8 @@ while True:
   print(x)
   x+=1
 
-#to create infinite loop
-x=0
-while True:
- print(x)
- x+=1
+# #to create infinite loop
+# x=0
+# while True:
+#  print(x)
+#  x+=1

@@ -2,7 +2,7 @@
 
 #pass keyword
 def hello_func():
- pass#it says tha twe dont want a parameter rn but will pass later
+ pass#it says that we dont want a parameter rn but will pass later
 print(hello_func())
 
 def hello_func():

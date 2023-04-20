@@ -69,3 +69,5 @@ print(dir(name))
 greeting = 'hello'
 print(help(str))
 print(help(str.lower))
+#to reverse a string
+print(message[::-1])

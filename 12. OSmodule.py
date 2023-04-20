@@ -31,18 +31,18 @@ print(os.listdir())'''
 
 
 #rename
-'''os.rename('mynotes.txt', 'notes.txt')
+'''os.rename('mytoken.txt', 'token.txt')
 print(os.listdir())'''
 
 
 
 #print all the information abt file
-print(os.stat('notes.txt'))
-print(os.stat('notes.txt').st_size)#gives size of file
-print(os.stat('notes.txt').st_mtime)#gives last modification time
+print(os.stat('token.txt'))
+print(os.stat('token.txt').st_size)#gives size of file
+print(os.stat('token.txt').st_mtime)#gives last modification time
 #to see modification time in human language
 from datetime import datetime
-mod_time= os.stat('notes.txt').st_mtime
+mod_time= os.stat('token.txt').st_mtime
 print(datetime.fromtimestamp(mod_time))
 
 

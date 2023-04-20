@@ -38,3 +38,6 @@ tuple1 = tuple()
 set1 = {}#this isn't right! it's a dictionary
 set1 = set()
 
+#to remove elements from a set
+cs_course.discard('maths')
+
